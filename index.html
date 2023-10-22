@@ -3,7 +3,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="" type="image/x-icon">
-    <title>Document</title>
+    <title>perfil profesional</title>
+    <link rel="shortcut icon" href="icons/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style_coach.css">
 </head>
@@ -11,20 +12,26 @@
     <header class="person">
         <nav class="nav container">
             <div class="nav_logo">
-                <h2 class="">Miguel Ayala</h2>
+                <h2 class="nav_title">Miguel Ayala</h2>
             </div>
             <ul class="nav_link nav_link--menu">
-                <li class="nav_items">
+                <!-- <li class="nav_items">
                     <a href="#" class="nav_links">inicio</a>
+                </li> -->
+                <li class="nav_items">
+                    <a href="#about" class="nav_links">Acerca de</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#" class="nav_links">Quien soy</a>
+                    <a href="#contact" class="nav_links">Contacto</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#" class="nav_links">Contacto</a>
+                    <a href="#references" class="nav_links">Referencias</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#" class="nav_links">Redes sociales</a>
+                    <a href="#questions" class="nav_links">Preguntas</a>
+                </li>
+                <li class="nav_items">
+                    <a href="#social_media" class="nav_links">Redes sociales</a>
                 </li>
                 <img src="img/icons/exit.svg" alt="icon class" class="nav_logo">
             </ul>
@@ -45,7 +52,8 @@
             <h2 class="sibtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h2>
             <p class="about_paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
 
-            <div class="class_main">
+            <div class="about_main">
+                <!-- (article.about_icons>img.about_icon+h3.about_title+p.about_paragraph)*3 -->
                 <article class="about icons">
                     <img src="img/icons/exit.svg" alt="icon" class="about_icon">
                     <h3 class="about_title">lorep ipsun</h3>
@@ -61,9 +69,189 @@
                     <h3 class="about_title">lorep ipsun</h3>
                     <p class="about_paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis soluta laboriosam esse, suscipit tenetur odio tempore iusto ex commodi cupiditate aperiam enim reiciendis possimus rem sunt cumque. Explicabo, fugiat consequuntur?</p>
                 </article>
+            </div>
+        </section>
+
+        <section class="options" id="contact">
+            <div class="options_container container">
+                <div class="options_texts">
+                    <h2 class="subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+                    <p class="options_paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque quod perferendis maiores aspernatur non culpa molestias illo incidunt laudantium. Sed error ea quasi quam aspernatur possimus doloremque nemo consequatur in libero, reprehenderit quo impedit eveniet, temporibus corporis accusantium, necessitatibus nobis nam sint facilis pariatur nihil quos. Suscipit esse tempore nesciunt.</p>
+                </div>
+                <figure class="options_picture">
+                    <img src="img/Perfil.png" alt="Imagen Options" class="options_img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="testimony" id="references">
+            <div class="testimony_container container">
+                
+                <img src="img/icons/leftarrow.svg" alt="Icon Flecha" class="testimony_arrow" id="before">                
+                
+                <section class="testimony_body testimony_body--show" data-id="1">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mi nombre es Jose Miguel Ayala
+                            <span class="testimony_course">estudiante de UFPSO</span>
+                        </h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam! Alias quibusdam mollitia sit doloribus odio officiis in inventore optio.</p>
+                    </div>
+                    <figure class="testimony_picture">
+                        <img src="img/Face1.jpg" alt="Foto Persona" class="testimony_img">
+                    </figure>
+                </section>
+
+                <section class="testimony_body" data-id="2">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mi nombre es Jose Miguel Ayala
+                            <span class="testimony_course">estudiante de UFPSO</span>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam! Alias quibusdam mollitia sit doloribus odio officiis in inventore optio.</p>
+                    </div>
+                    <figure class="testimony_picture">
+                        <img src="img/Face2.jpg" alt="Foto Persona" class="testimony_img">
+                    </figure>
+                </section> 
+
+                <section class="testimony_body" data-id="3">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mi nombre es Jose Miguel Ayala
+                            <span class="testimony_course">estudiante de UFPSO</span>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam! Alias quibusdam mollitia sit doloribus odio officiis in inventore optio.</p>
+                    </div>
+                    <figure class="testimony_picture">
+                        <img src="img/Face3.jpg" alt="Foto Persona" class="testimony_img">
+                    </figure>
+                </section>
+
+                <section class="testimony_body" data-id="4">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mi nombre es Jose Miguel Ayala
+                            <span class="testimony_course">estudiante de UFPSO</span>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam! Alias quibusdam mollitia sit doloribus odio officiis in inventore optio.</p>
+                    </div>
+                    <figure class="testimony_picture">
+                        <img src="img/Face4.jpg" alt="Foto Persona" class="testimony_img">
+                    </figure>
+                </section>
+
+                <img src="img/icons/rightarrow.svg" alt="Icon Flecha" class="testimony_arrow" id="next">
 
             </div>
         </section>
+
+        <section class="questions" id="questions">
+            <div class="container">
+                <h2 class="subtitle">Lorem, ipsum dolor.</h2>
+                <p class="questions_paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
+                    doloribus neque perspiciatis sapiente fuga.</p>
+
+                <section class="questions_container">
+                    <article class="questions_padding">
+                        <div class="questions_answer">
+                            <h3 class="questions_title">¿Lorem, ipsum dolor.?
+                                <span class="questions_arrow">
+                                    <img src="img/icons/arrow.svg" class="questions_img">
+                                </span>
+                            </h3>
+
+                            <p class="questions_show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                                facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                                eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                                amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                                nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                                quam atque?</p>
+                        </div>
+                    </article>
+
+                    <article class="questions_padding">
+                        <div class="questions_answer">
+                            <h3 class="questions_title">¿Lorem ipsum dolor sit.?
+                                <span class="questions_arrow">
+                                    <img src="img/icons/arrow.svg" class="questions_img">
+                                </span>
+                            </h3>
+
+                            <p class="questions_show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                                facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                                eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                                amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                                nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                                quam atque?</p>
+                        </div>
+                    </article>
+
+                    <article class="questions_padding">
+                        <div class="questions_answer">
+                            <h3 class="questions_title">¿Lorem ipsum dolor sit.?
+                                <span class="questions_arrow">
+                                    <img src="img/icons/arrow.svg" class="questions_img">
+                                </span>
+                            </h3>
+
+                            <p class="questions_show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
+                                facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
+                                eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
+                                amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
+                                nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
+                                quam atque?</p>
+                        </div>
+                    </article>
+                </section>
+
+                <section class="questions_offer">
+                    <h2 class="subtitle">¿Lorem ipsum dolor sit.?</h2>
+                    <p class="questions_copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione
+                        architecto magnam, officiis ex porro vero est voluptates quaerat quibusdam illo veniam reprehenderit
+                        eius atque tempora iure ab non autem.</p>
+                    <a href="#" class="cta">Lorem ipsum dolor</a>
+                </section>
+            </div>
+        </section>
     </main>
+
+    <footer class="footer" id="social_media">
+        <section class="footer_container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer_title">Miguel Ayala</h2>
+                <ul class="nav_link nav_link--footer">
+                    <!-- (li.nav_items>a.nav_links{Option})*4 -->
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Option</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Option</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Option</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Option</a>
+                    </li>
+                </ul>
+            </nav>
+            <form class="footer_form">
+                <h2 class="footer_info">Suscribete</h2>
+                <!-- .footer_inputs>input:email.footer_input+input:submit.footer_submit -->
+                <div class="footer_inputs">
+                    <input type="email" class="footer_input" placeholder="Escribe tu E-Mail">
+                    <input type="submit" value="Contáctanos" class="footer_submit">
+                </div>
+            </form>
+        </section>
+        <section class="footer_copy container">
+            <div class="footer_social">
+                <a href="#" class="footer_icon"><img src="img/icons/Facebook.svg" alt="Icon Facebook" class="footer_img"></a>
+                <a href="#" class="footer_icon"><img src="img/icons/Instagram.svg" alt="Icon Instagram" class="footer_img"></a>
+                <a href="#" class="footer_icon"><img src="img/icons/twitter.svg" alt="Icon Twitter" class="footer_img"></a>
+            </div>
+            <h3 class="footer_copyright">Derechos reservados &copy; Miguel Ayala</h3>
+        </section>
+    </footer>
+
+    <script src="Js/slider.js"></script>
+    <script src="Js/questions.js"></script>
 </body>
 </html>
