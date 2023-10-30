@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo js</title>
+</head>
+<body>
+    <label for="" id="tex_ejem"></label>
+    <label for="" id="tex_ejem_two"></label>
+
+    <button onclick="enviar()" >ENVIAR</button>
+    <button id="limpiar">LIMPIAR</button>
+    <input type="text" onblur="accion()" id="accion" placeholder="Eventos aqui">
+
+    <br><br>
+
+    <form autocomplete="off" id="form_register">
+        <label for="">Nombres:</label>
+        <input type="text" size="30" id="nombres" placeholder="Escriba aqui">
+        <br>
+        <label for="">Apellidos</label>
+        <input type="text" size="30" id="apellidos" placeholder="Escriba aqui">
+        <br>
+        <button type="submit">REGISTRAR</button>
+        <p id="information"></p>
+    </form>
+
+    <br>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/Js/functions.js"></script>
+    <script>
+        let variable=5;
+        console.log(variable);
+    </script>
+</body>
+</html>
